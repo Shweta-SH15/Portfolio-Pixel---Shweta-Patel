@@ -31,6 +31,23 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    name: "Astronomy FAQ",
+    description: "Space Knowledge Base",
+    problem: "Lack of accessible, comprehensive astronomical information.",
+    approach: "Create an interactive app that answers complex astronomical queries.",
+    achievements: ["NASA Space Apps Challenge Finalist", "10,000+ Questions Answered"],
+    technologiesUsed: ["Ionic (Angular)", "Node.js/Express", "MongoDB"],
+    date: "1/04/2025 – 9/4/2025",
+    badges: ["Full-Stack", "FAQ System"],
+    fullDescription: [
+      "Built a full-stack FAQ app using Ionic (Angular) for frontend, Node.js/Express for backend, and MongoDB for data storage.",
+      "Designed a 3-page sidemenu interface (Main, Listing, Update) with CRUD operations using Ionic services and Mongoose.",
+      "Enabled dynamic database/collection creation, batch loading from file, and in-app item updates/deletion with confirmation dialogs.",
+      "Implemented clean UI/UX using Ionic components, Action Sheets, and Alert dialogs for interactive user experience."
+    ]
+  },
+  {
+    id: 3,
     name: "Campus Buddy",
     description: "AI-Powered Student Companion",
     problem: "Students often struggle to manage academics, events, and resources effectively without a centralized system.",
@@ -45,22 +62,6 @@ export const projects: Project[] = [
       "Integrated authentication, protected routes, and JWT-based security for personalized student experiences.",
       "Developed AI-driven study assistance tools (note summarization, sentiment analysis, resource recommendations) alongside a voice assistant for hands-free interaction.",
       "Implemented a clean, responsive UI with real-time feedback and dynamic content rendering for enhanced user engagement."
-    ]
-  },
-  {
-    id: 3,
-    name: "1DayIntern",
-    description: "Career Simulator Platform",
-    problem: "Students struggle to understand real-world job dynamics and career paths.",
-    approach: "Develop an interactive platform that simulates one-day work experiences across multiple industries.",
-    achievements: ["Top 10 EdTech Startup", "500+ User Signups", "Featured in TechCrunch"],
-    technologiesUsed: ["Tempo Labs", "Okta", "Supabase", "Python (FAST, ngrok)", "Vite", "React"],
-    date: "17/01/2025 – 19/01/2025",
-    badges: ["Hackathon", "Gamification", "Auth"],
-    fullDescription: [
-      "Created a gamified platform offering 1-day job simulations, Co-curricular records, with a Minecraft-like interface for enhanced engagement.",
-      "Integrated Okta for secure authentication and Supabase for backend management.",
-      "Utilized Python and FAST framework for task simulation and ngrok for real-time connectivity."
     ]
   },
   {

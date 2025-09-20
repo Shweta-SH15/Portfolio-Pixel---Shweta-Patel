@@ -76,13 +76,13 @@ const PixelContact: React.FC = () => {
               </p>
 
               <div className="flex gap-4">
-                <a href="https://linkedin.com/in/devpatel55566" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-[#2b5876] to-[#4e4376] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/shweta-sh15/" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-[#2b5876] to-[#4e4376] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                   <Linkedin className="w-6 h-6 text-blue-200" />
                 </a>
-                <a href="https://www.instagram.com/dv_patel555/" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
+                <a href="https://www.instagram.com/_shivii_04_/" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-br from-[#0f2027] via-[#203a43] to-[#2c5364] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                   <Instagram className="w-6 h-6 text-blue-200" />
                 </a>
-                <a href="mailto:your@email.com" className="bg-gradient-to-br from-[#1e3c72] to-[#2a5298] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
+                <a href="mailto:patelshweta255@gmail.com" className="bg-gradient-to-br from-[#1e3c72] to-[#2a5298] p-4 rounded-full hover:shadow-lg hover:shadow-blue-500/20 transition-all duration-300">
                   <Mail className="w-6 h-6 text-blue-200" />
                 </a>
               </div>
